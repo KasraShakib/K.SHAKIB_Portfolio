@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* غیرفعال کردن کورسر تایپی روی عناوین، آیکون‌ها و کارت‌ها */
+h1, h2, h3, h4, h5, h6, 
+svg, img, 
+.select-none {
+  user-select: none;
+  cursor: default;
+}
+
+/* اطمینان از قرارگیری کورسر اشاره‌گر (Hand) روی تمام دکمه‌ها و لینک‌ها */
+button, a, [role="button"] {
+  cursor: pointer !important;
+}
+
+@keyframes gradientBg {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* پس‌زمینه گریدینتی متحرک بسیار زنده و پررنگ */
+.animated-mesh-bg {
+  background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 25%, #0f2d4a 50%, #2e1065 75%, #0f172a 100%);
+  background-size: 400% 400%;
+  animation: gradientAnimation 12s ease infinite;
+}
+
+/* افکت شیشه مایع (Liquid Glass) */
+.liquid-glass {
+  background: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(20px) saturate(190%) !important;
+  -webkit-backdrop-filter: blur(20px) saturate(190%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
+}
+
+.liquid-glass-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.liquid-glass-hover:hover {
+  background: rgba(255, 255, 255, 0.09) !important;
+  border-color: rgba(255, 255, 255, 0.25) !important;
+  box-shadow: 0 20px 50px rgba(99, 102, 241, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.3) !important;
+}

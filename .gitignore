@@ -1,0 +1,12 @@
+# node_modules شامل پکیج‌هاست که نباید آپلود شود
+node_modules/
+
+# پوشه بیلْد محلی
+dist/
+build/
+
+# فایل‌های موقت ادیتور و سیستم‌عامل
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
