@@ -5,6 +5,7 @@ import SkillsSection from './components/SkillsSection';
 import ProjectsSection from './components/ProjectsSection';
 import CertificatesSection from './components/CertificatesSection';
 import ContactSection from './components/ContactSection';
+import StarsCanvas from './components/Canvas/Stars';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <div className="relative z-10">
         <Navbar />
         <main>
+          <StarsCanvas />
           <AboutSection />
           <SkillsSection />
           <ProjectsSection />
