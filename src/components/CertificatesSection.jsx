@@ -19,7 +19,7 @@ export default function CertificatesSection() {
       <motion.div 
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: false, amount: 0.2 }}
+        viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.5 }}
         className="text-center mb-16 md:mb-20"
       >
@@ -44,7 +44,7 @@ export default function CertificatesSection() {
                 key={cert.title + idx}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: false, amount: 0.2 }}
+                viewport={{ once: true, amount: 0.2 }}
                 transition={{ duration: 0.4, delay: idx * 0.1 }}
                 onClick={() => setActiveIndex(idx)}
                 onMouseEnter={() => setActiveIndex(idx)}
@@ -157,7 +157,7 @@ export default function CertificatesSection() {
               key={cert.title + idx}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: false, amount: 0.2 }}
+              viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 0.4, delay: idx * 0.08 }}
               className={`rounded-2xl border transition-all duration-300 overflow-hidden ${
                 isOpen 

@@ -182,7 +182,7 @@ export default function AboutSection() {
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: false, amount: 0.2 }}
+        viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.7 }}
         className="p-8 sm:p-10 rounded-3xl relative border border-white/10 bg-gradient-to-b from-white/[0.07] to-transparent backdrop-blur-2xl shadow-[0_20px_50px_rgba(0,0,0,0.4)]"
       >

@@ -19,7 +19,7 @@ export default function SkillsSection() {
       <motion.div 
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: false, amount: 0.2 }}
+        viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.5 }}
         className="text-center mb-16 select-none cursor-default"
       >
@@ -40,7 +40,7 @@ export default function SkillsSection() {
                 key={cat.title}
                 initial={{ opacity: 0, x: isEven ? 50 : -50 }}
                 whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: false, amount: 0.2 }}
+                viewport={{ once: true, amount: 0.2 }}
                 transition={{ duration: 0.6, delay: idx * 0.15, ease: 'easeOut' }}
                 className={`relative flex flex-col md:flex-row items-start md:items-center pr-10 md:pr-0 ${isEven ? 'md:flex-row-reverse' : ''}`}
               >

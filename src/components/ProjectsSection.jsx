@@ -15,7 +15,7 @@ export default function ProjectsSection() {
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: false, amount: 0.2 }}
+        viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.5 }}
         className="text-center mb-16 cursor-default"
       >
@@ -34,7 +34,7 @@ export default function ProjectsSection() {
             rel="noreferrer"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: false, amount: 0.05 }}
+            viewport={{ once: true, amount: 0.05 }}
             transition={{ duration: 0.4, delay: idx * 0.08 }}
             className="p-8 rounded-3xl border border-white/10 bg-gradient-to-b from-white/[0.07] to-transparent backdrop-blur-2xl flex flex-col justify-between cursor-pointer group relative z-10 transform-gpu hover:-translate-y-1 hover:border-indigo-500/40 hover:shadow-[0_10px_30px_rgba(99,102,241,0.15)] transition-all duration-300"
           >
