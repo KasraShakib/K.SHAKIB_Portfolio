@@ -24,7 +24,8 @@ export default function AboutSection() {
     },
     {
       name: "JavaScript (ES6+)",
-      color: "from-yellow-500/20 to-amber-500/20 text-yellow-400 border-yellow-500/30",
+      color:
+        "from-yellow-500/20 to-amber-500/20 text-yellow-400 border-yellow-500/30",
     },
     {
       name: "Tailwind CSS",
@@ -32,11 +33,13 @@ export default function AboutSection() {
     },
     {
       name: "Git & GitHub",
-      color: "from-orange-500/20 to-red-500/20 text-orange-400 border-orange-500/30",
+      color:
+        "from-orange-500/20 to-red-500/20 text-orange-400 border-orange-500/30",
     },
     {
       name: "REST API",
-      color: "from-emerald-500/20 to-green-500/20 text-emerald-400 border-emerald-500/30",
+      color:
+        "from-emerald-500/20 to-green-500/20 text-emerald-400 border-emerald-500/30",
     },
     {
       name: "HTML5 & CSS3",
@@ -91,7 +94,9 @@ export default function AboutSection() {
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-300 text-xs font-medium mb-6 backdrop-blur-sm"
           >
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
-            <span>{t("about.status", "آماده همکاری در پروژه‌های Front-End")}</span>
+            <span>
+              {t("about.status", "آماده همکاری در پروژه‌های Front-End")}
+            </span>
           </motion.div>
 
           {/* تیتر اصلی */}
@@ -124,12 +129,12 @@ export default function AboutSection() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-lg sm:text-2xl text-slate-300 font-medium flex items-center gap-2.5 h-14"
+            className="text-base sm:text-2xl text-slate-300 font-medium flex flex-wrap sm:flex-nowrap items-baseline gap-2.5 min-h-[4rem] sm:min-h-[3.5rem] h-auto my-2"
           >
             <span className="text-slate-400 shrink-0">
               {t("about.specialtyPrefix", "تخصص من:")}
             </span>
-            <span className="text-indigo-400 font-bold border-b-2 border-indigo-500/50 pb-0.5">
+            <span className="text-indigo-400 font-bold border-b-2 border-indigo-500/50 pb-0.5 inline-block leading-relaxed break-words">
               <Typewriter
                 key={currentLang} // بازنشانی اثر تایپ‌رایتر هنگام تغییر زبان
                 options={{
@@ -142,7 +147,6 @@ export default function AboutSection() {
               />
             </span>
           </motion.div>
-
           {/* دکمه‌های اکشن */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
