@@ -163,6 +163,8 @@ Contributions are welcome! Feel free to submit issues and enhancement requests.
 
 ### 📧 Contact & Support
 
+- 📧 **Email:** [kasrashakib505@gmail.com](mailto:kasrashakib505@gmail.com)
+- 📱 **Phone:** [+989362176385](tel:+989362176385)
 - 💼 **GitHub:** [@KasraShakib](https://github.com/KasraShakib)
 - 🌐 **Portfolio:** [https://kasrashakib.github.io/K.SHAKIB_Portfolio/](https://kasrashakib.github.io/K.SHAKIB_Portfolio/)
 
@@ -185,7 +187,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 🌍 **پشتیبانی چند‌زبانه** - تعویض بین فارسی و انگلیسی
 - 📧 **فرم تماس** - ارتباط از طریق EmailJS یکپارچه
 - 🎭 **انیمیشن‌های روان** - انیمیشن‌های جذاب با Framer Motion
-- 🔧 **عناصر سه‌بعدی تعاملی** - بصری‌های سه‌بعدی با Three.js و React Three Fiber
+- 🔧 **عناصر سه‌بعدی تعاملی** - بصری‌ها�� سه‌بعدی با Three.js و React Three Fiber
 - 🎯 **ایمن و معتبر** - ساخته شده با React و بهترین روش‌های JavaScript
 - 📱 **بهینه‌شده برای موبایل** - تجربه مشاهده عالی در تمام اندازه‌های صفحه
 - 🎪 **اثرات متن داینامیکی** - تأثیرات متن پویا با Typewriter Effect
@@ -208,7 +210,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **بین‌الملل‌سازی:**
 - 🌐 **i18next 26.3.6** - فریم‌ورک قدرتمند i18n
 - 🌍 **i18next-browser-languagedetector 8.2.1** - تشخیص خودکار زبان
-- ��� **react-i18next 17.0.11** - یکپارچگی React برای i18next
+- 🔤 **react-i18next 17.0.11** - یکپارچگی React برای i18next
 
 **ویژگی‌های اضافی:**
 - 📧 **EmailJS 4.4.1** - ارسال ایمیل مستقیم از مرورگر
@@ -280,7 +282,7 @@ K.SHAKIB_Portfolio/
 ### 📊 معیارهای کارایی
 
 - ⚡ **HMR فوری** - تعویض ماژول داغ برای توسعه سریع
-- 🎯 **بسته بهینه‌شده** - JavaScript حداقلی با کد splitting
+- 🎯 **بسته بهینه��شده** - JavaScript حداقلی با کد splitting
 - 📦 **بارگذاری تنبل** - بارگذاری هوشمند کامپوننت‌ها و منابع
 - 🖼️ **تصاویر بهینه‌شده** - مدیریت تصاویر واکنش‌پذیر
 
@@ -312,7 +314,9 @@ npm run lint
 
 ### 📧 تماس و پشتیبانی
 
-- 💼 **GitHub:** [@KasraShakib](https://github.com/KasraShakib)
+- 📧 **ایمیل:** [kasrashakib505@gmail.com](mailto:kasrashakib505@gmail.com)
+- 📱 **تلفن:** [+989362176385](tel:+989362176385)
+- 💼 **گیت‌هاب:** [@KasraShakib](https://github.com/KasraShakib)
 - 🌐 **وبسایت:** [https://kasrashakib.github.io/K.SHAKIB_Portfolio/](https://kasrashakib.github.io/K.SHAKIB_Portfolio/)
 
 ### 📄 مجوز
