@@ -90,6 +90,7 @@ export default function AboutSection() {
           <motion.div
             initial={{ opacity: 0, x: isRtl ? 20 : -20 }}
             whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.5 }}
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-300 text-xs font-medium mb-6 backdrop-blur-sm"
           >
@@ -103,6 +104,7 @@ export default function AboutSection() {
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-4xl sm:text-6xl font-black text-white leading-tight tracking-tight mb-5"
           >
@@ -128,6 +130,7 @@ export default function AboutSection() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-base sm:text-2xl text-slate-300 font-medium flex flex-wrap sm:flex-nowrap items-baseline gap-2.5 min-h-[4rem] sm:min-h-[3.5rem] h-auto my-2"
           >
@@ -151,6 +154,7 @@ export default function AboutSection() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.6, delay: 0.3 }}
             className="flex flex-wrap items-center gap-4 mt-8"
           >
@@ -269,6 +273,7 @@ export default function AboutSection() {
                   key={skill.name}
                   initial={{ opacity: 0, scale: 0.9 }}
                   whileInView={{ opacity: 1, scale: 1 }}
+                  viewport={{ once: true, amount: 0.2 }}
                   transition={{ duration: 0.3, delay: index * 0.05 }}
                   className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-medium bg-gradient-to-r ${skill.color} border backdrop-blur-md transition-all hover:scale-105 select-none`}
                 >
